@@ -64,9 +64,9 @@ libmm-vdec-inc          += frameworks/native/include/media/openmax
 libmm-vdec-inc          += frameworks/native/include/media/hardware
 libmm-vdec-inc          += hardware/qcom/media-caf-msm8960/libc2dcolorconvert
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libcopybit
-libmm-vdec-inc          += frameworks/av/include/media/stagefright
+libmm-vdec-inc          += frameworks/av-caf/include/media/stagefright
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libqservice
-libmm-vdec-inc          += frameworks/av/media/libmediaplayerservice
+libmm-vdec-inc          += frameworks/av-caf/media/libmediaplayerservice
 libmm-vdec-inc          += frameworks/native/include/binder
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libqdutils
 

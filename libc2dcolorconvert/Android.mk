@@ -6,7 +6,7 @@ LOCAL_SRC_FILES := \
         C2DColorConverter.cpp
 
 LOCAL_C_INCLUDES := \
-    $(TOP)/frameworks/av/include/media/stagefright \
+    $(TOP)/frameworks/av-caf/include/media/stagefright \
     $(TOP)/frameworks/native/include/media/openmax \
     $(TOP)/hardware/qcom/display-caf-msm8960/libcopybit
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
