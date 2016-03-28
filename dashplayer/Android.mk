@@ -32,16 +32,16 @@ LOCAL_STATIC_LIBRARIES :=       \
     libstagefright_rtsp         \
 
 LOCAL_C_INCLUDES := \
-    $(TOP)/frameworks/av/media/libstagefright/timedtext           \
-	$(TOP)/frameworks/native/include/media/hardware               \
-	$(TOP)/frameworks/native/include/media/openmax                \
-	$(TOP)/frameworks/av/media/libstagefright/httplive            \
-	$(TOP)/frameworks/av/media/libmediaplayerservice/nuplayer     \
-	$(TOP)/frameworks/av/media/libmediaplayerservice              \
-	$(TOP)/frameworks/av/media/libstagefright/include             \
-	$(TOP)/frameworks/av/media/libstagefright/mpeg2ts             \
-	$(TOP)/frameworks/av/media/libstagefright/rtsp                \
-	$(TOP)/hardware/qcom/media/mm-core/inc                        \
+	$(TOP)/frameworks/av-caf/media/libstagefright/timedtext       \
+	$(TOP)/frameworks/native-caf/include/media/hardware           \
+	$(TOP)/frameworks/native-caf/include/media/openmax            \
+	$(TOP)/frameworks/av-caf/media/libstagefright/httplive        \
+	$(TOP)/frameworks/av-caf/media/libmediaplayerservice/nuplayer \
+	$(TOP)/frameworks/av-caf/media/libmediaplayerservice          \
+	$(TOP)/frameworks/av-caf/media/libstagefright/include         \
+	$(TOP)/frameworks/av-caf/media/libstagefright/mpeg2ts         \
+	$(TOP)/frameworks/av-caf/media/libstagefright/rtsp            \
+	$(TOP)/hardware/qcom/media-caf-msm8960/mm-core/inc
 
 ifeq ($(PLATFORM_SDK_VERSION), 18)
 ifeq (1,$(filter 1,$(shell echo "$$(( $(PLATFORM_SDK_VERSION) >= 18 ))" )))
