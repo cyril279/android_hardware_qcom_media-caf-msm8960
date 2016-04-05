@@ -33,8 +33,8 @@ LOCAL_STATIC_LIBRARIES :=       \
 
 LOCAL_C_INCLUDES := \
     $(TOP)/frameworks/av-caf/media/libstagefright/timedtext           \
-	$(TOP)/frameworks/native/include/media/hardware               \
-	$(TOP)/frameworks/native/include/media/openmax                \
+	$(TOP)/frameworks/native-caf/include/media/hardware               \
+	$(TOP)/frameworks/native-caf/include/media/openmax                \
 	$(TOP)/frameworks/av-caf/media/libstagefright/httplive        \
 	$(TOP)/frameworks/av-caf/media/libmediaplayerservice/nuplayer \
 	$(TOP)/frameworks/av-caf/media/libmediaplayerservice          \

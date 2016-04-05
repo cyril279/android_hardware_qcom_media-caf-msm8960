@@ -60,14 +60,14 @@ libmm-vdec-inc          += $(OMX_VIDEO_PATH)/vidc/common/inc
 libmm-vdec-inc          += hardware/qcom/media-caf-msm8960/mm-core/inc
 libmm-vdec-inc          += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libgralloc
-libmm-vdec-inc          += frameworks/native/include/media/openmax
-libmm-vdec-inc          += frameworks/native/include/media/hardware
+libmm-vdec-inc          += frameworks/native-caf/include/media/openmax
+libmm-vdec-inc          += frameworks/native-caf/include/media/hardware
 libmm-vdec-inc          += hardware/qcom/media-caf-msm8960/libc2dcolorconvert
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libcopybit
 libmm-vdec-inc          += frameworks/av-caf/include/media/stagefright
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libqservice
 libmm-vdec-inc          += frameworks/av-caf/media/libmediaplayerservice
-libmm-vdec-inc          += frameworks/native/include/binder
+libmm-vdec-inc          += frameworks/native-caf/include/binder
 libmm-vdec-inc          += hardware/qcom/display-caf-msm8960/libqdutils
 
 
